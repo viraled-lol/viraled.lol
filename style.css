@@ -72,6 +72,8 @@ nav, main, section {
 .nav-brand {
     font-weight: 700;
     font-size: 1.2rem;
+    width: 100%;
+    text-align: center;
 }
 
 .nav-links {
