@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>viraled.lol</title>
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="viraled.lol - Everything for a creator, right here.">
+    <meta name="description" content="Viraled is the ultimate tool for modern content creator tools, seamless networking, and growth.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://viraled.lol/">
+    <meta property="og:title" content="viraled.lol - Everything for a creator, right here.">
+    <meta property="og:description" content="Viraled is the ultimate tool for modern content creator tools, seamless networking, and growth.">
+    <meta property="og:image" content="https://viraled.lol/logo.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://viraled.lol/">
+    <meta property="twitter:title" content="viraled.lol - Everything for a creator, right here.">
+    <meta property="twitter:description" content="Viraled is the ultimate tool for modern content creator tools, seamless networking, and growth.">
+    <meta property="twitter:image" content="https://viraled.lol/logo.png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="fireworks-container"></div>
+    
+    <nav class="navbar">
+        <div class="nav-brand">viraled.lol</div>
+        <div class="nav-links">
+            <a href="#">Discord</a>
+            <a href="#">Leaderboard</a>
+            <a href="#">Pricing</a>
+        </div>
+        <div class="nav-actions">
+            <span class="user-greeting">Hello, @3ryze</span>
+            <a href="#" class="btn-dashboard">Dashboard</a>
+            <a href="#" class="logout">Logout</a>
+        </div>
+    </nav>
+
+    <main class="hero">
+        <div class="hero-content">
+            <img src="./logo.png" alt="Viraled Logo" class="hero-logo" draggable="false">
+            <h1 class="hero-title">Everything for a creator,<br>right here.</h1>
+            <p class="hero-subtitle">Viraled is the ultimate tool for modern content creator tools, seamless networking, and growth.</p>
+            <a href="#" class="btn-signup-hero">Get Access</a>
+        </div>
+        
+        <div class="mockup-section">
+            <div class="mockup-mobile">
+                <div class="m-graph-header">
+                    <div class="m-graph-title">Total Views</div>
+                    <div class="m-graph-value">+240%</div>
+                </div>
+                <div class="m-graph-container">
+                    <svg viewBox="0 0 100 50" preserveAspectRatio="none">
+                        <defs>
+                            <linearGradient id="curveGradient" x1="0" y1="0" x2="0" y2="1">
+                                <stop offset="0%" stop-color="#ff4b72" stop-opacity="0.8" />
+                                <stop offset="100%" stop-color="#ff4b72" stop-opacity="0" />
+                            </linearGradient>
+                        </defs>
+                        <path d="M 0 40 Q 20 40, 40 25 T 70 15 T 100 5" fill="none" stroke="#ff4b72" stroke-width="2" class="graph-line"/>
+                        <path d="M 0 40 Q 20 40, 40 25 T 70 15 T 100 5 L 100 50 L 0 50 Z" fill="url(#curveGradient)" class="graph-fill"/>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="mockup-dashboard">
+                <div class="d-header">
+                    <div class="window-controls">
+                        <span></span><span></span><span></span>
+                    </div>
+                </div>
+                <div class="d-body">
+                    <div class="d-sidebar">
+                        <div class="d-user">
+                            <div class="d-avatar"></div>
+                            <div class="d-user-info">
+                                <span class="d-welcome">Welcome back,</span>
+                                <span class="d-username">@creator</span>
+                            </div>
+                        </div>
+                        <ul class="d-nav">
+                            <li class="active">Account</li>
+                            <li>Customize</li>
+                            <li>Links</li>
+                            <li>Analytics</li>
+                        </ul>
+                    </div>
+                    <div class="d-content">
+                        <h2>Account Overview</h2>
+                        <div class="d-stats">
+                            <div class="d-stat-card">
+                                <h3>12.5K</h3>
+                                <p>Profile Views</p>
+                            </div>
+                            <div class="d-stat-card">
+                                <h3>840</h3>
+                                <p>Clicks</p>
+                            </div>
+                            <div class="d-stat-card">
+                                <h3>6.8%</h3>
+                                <p>CTR</p>
+                            </div>
+                        </div>
+                        <div class="d-chart">
+                            <svg viewBox="0 0 100 50" preserveAspectRatio="none" style="width:100%; height:100%; display:block;">
+                                <defs>
+                                    <linearGradient id="dCurveGradient" x1="0" y1="0" x2="0" y2="1">
+                                        <stop offset="0%" stop-color="#ff4b72" stop-opacity="0.3" />
+                                        <stop offset="100%" stop-color="#ff4b72" stop-opacity="0" />
+                                    </linearGradient>
+                                </defs>
+                                <path d="M 0 45 Q 20 40, 40 30 T 70 20 T 100 10" fill="none" stroke="#ff4b72" stroke-width="2"/>
+                                <path d="M 0 45 Q 20 40, 40 30 T 70 20 T 100 10 L 100 50 L 0 50 Z" fill="url(#dCurveGradient)"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Use fireworks.js via CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/fireworks-js@2.x/dist/index.umd.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
